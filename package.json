@@ -1,0 +1,37 @@
+{
+  "name": "babel-es7-to-es5",
+  "version": "1.0.0",
+  "description": "A configuration for ES7 compile to ES5\u001b[C\u001b",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "npx babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjlopezdev/babel-es7-to-es5.git"
+  },
+  "keywords": [
+    "BABEL",
+    "ES7",
+    "ES5"
+  ],
+  "author": "rjlopezdev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rjlopezdev/babel-es7-to-es5/issues"
+  },
+  "homepage": "https://github.com/rjlopezdev/babel-es7-to-es5#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "npx": "^9.7.1"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
